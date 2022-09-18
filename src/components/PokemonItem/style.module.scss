@@ -1,0 +1,48 @@
+.container{
+    width: 190px;
+    height: 260px;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 2px;
+    margin: 20px;
+    background-color: wheat;
+    box-shadow: inset 5px 5px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    p{
+        width: min-content;
+        left:150px;
+        padding: 0;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    div{
+        margin: 0 auto;
+        padding: 0;
+        width: min-content;
+    }
+    h4{
+        margin: 0 auto;
+        width: max-content;
+    }
+}
+
+.container:hover{
+    transform: scale(1.2);
+    transition: ease 1s;
+    background-color: bisque;
+}
+
+.bg{
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+

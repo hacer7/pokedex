@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.pag{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.inp{
+    width: 300px !important;
+    margin: 0 60px !important;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    transform: scale(2);
+}
